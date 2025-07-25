@@ -10,7 +10,7 @@ namespace GetCatalogAndOrderInfo.Repository
 
             try
             {
-                string folderPath = Path.GetFullPath(@"C:\ProjectsC#\PAAS\GetCatalogAndOrderInfo\GetCatalogAndOrderInfo\FichierCSV\input\");
+                string folderPath = Path.GetFullPath(@"~\GetCatalogAndOrderInfo\GetCatalogAndOrderInfo\FichierCSV\input\");
                 string fileName = "catalogList";
                 string fileExtension = ".csv";
                 string fileCpltd = Path.GetFullPath(folderPath + fileName + fileExtension);
